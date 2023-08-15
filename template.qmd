@@ -1,0 +1,36 @@
+---
+title: "Homework Template"
+author: "Ima Student"
+format: ds6030hw-html
+---
+
+```{r config, include=FALSE}
+# Set global configurations and settings here
+knitr::opts_chunk$set()                 # set global chunk options
+ggplot2::theme_set(ggplot2::theme_bw()) # set ggplot2 theme
+```
+
+I will provide a .qmd file like this for [every homework assignment](https://mdporter.github.io/DS6030/homework.html). Download the homework file and add your solutions to each problem in the section that looks like this:
+```
+::: {.callout-note title="Solution"}
+Add solution here
+:::
+
+```
+This will format the solution section to make it easier to grade. 
+
+
+# Problem 1
+
+## a. First question
+
+::: {.callout-note title="Solution"}
+Add solution here
+:::
+
+## b. Second question
+
+::: {.callout-note title="Solution"}
+Add solution here
+:::
+
