@@ -20,6 +20,7 @@ contributes:
       fontsize: 14px
       theme: [yeti, custom.scss]
       callout-icon: false
+      embed-resources: true
       knitr:
         opts_chunk:
           out.width: "70%"
